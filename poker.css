@@ -1,0 +1,243 @@
+.root {
+  -fx-font-family: "Segoe UI", "Inter", sans-serif;
+  -fx-font-size: 13px;
+  -fx-background-color: linear-gradient(to bottom, #0a0f1a, #050810);
+}
+
+.app-title {
+  -fx-font-size: 26px;
+  -fx-font-weight: 900;
+  -fx-text-fill: linear-gradient(to right, #fde68a, #fbbf24);
+}
+
+.app-sub {
+  -fx-text-fill: rgba(226, 232, 240, 0.65);
+  -fx-font-size: 12px;
+}
+
+.chip-label {
+  -fx-font-size: 11px;
+  -fx-font-weight: 700;
+  -fx-text-fill: rgba(226, 232, 240, 0.7);
+}
+
+.chip-value {
+  -fx-font-size: 22px;
+  -fx-font-weight: 900;
+  -fx-text-fill: #fef3c7;
+}
+
+.chip-tray {
+  -fx-background-color: rgba(15, 23, 42, 0.85);
+  -fx-background-radius: 14px;
+  -fx-border-color: rgba(251, 191, 36, 0.35);
+  -fx-border-radius: 14px;
+  -fx-border-width: 1;
+  -fx-padding: 12px 16px;
+}
+
+.phase-pill {
+  -fx-background-color: rgba(59, 130, 246, 0.2);
+  -fx-text-fill: #93c5fd;
+  -fx-font-weight: 800;
+  -fx-font-size: 11px;
+  -fx-background-radius: 999px;
+  -fx-padding: 6px 14px;
+  -fx-border-color: rgba(59, 130, 246, 0.45);
+  -fx-border-radius: 999px;
+}
+
+.phase-pill-active {
+  -fx-background-color: #2563eb;
+  -fx-text-fill: white;
+  -fx-border-color: #60a5fa;
+}
+
+.felt {
+  -fx-background-color: radial-gradient(center 50% 40%, radius 85%, #1a7a52, #0d4a32 65%, #062a1c);
+  -fx-background-radius: 24px;
+  -fx-border-color: rgba(255, 255, 255, 0.12);
+  -fx-border-radius: 24px;
+  -fx-border-width: 2;
+  -fx-padding: 28px 32px;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.55), 40, 0.3, 0, 8);
+}
+
+.felt-inner {
+  -fx-background-color: rgba(0, 0, 0, 0.12);
+  -fx-background-radius: 18px;
+  -fx-border-color: rgba(255, 255, 255, 0.06);
+  -fx-border-radius: 18px;
+  -fx-padding: 20px;
+}
+
+.section-title {
+  -fx-font-size: 13px;
+  -fx-font-weight: 800;
+  -fx-text-fill: rgba(255, 255, 255, 0.9);
+  -fx-letter-spacing: 0.5px;
+}
+
+.rank-badge {
+  -fx-background-color: rgba(0, 0, 0, 0.35);
+  -fx-background-radius: 8px;
+  -fx-padding: 4px 10px;
+  -fx-text-fill: #e2e8f0;
+  -fx-font-size: 11px;
+  -fx-font-weight: 700;
+}
+
+.playing-card {
+  -fx-background-color: #fafafa;
+  -fx-background-radius: 14px;
+  -fx-border-color: rgba(0, 0, 0, 0.12);
+  -fx-border-radius: 14px;
+  -fx-border-width: 1;
+  -fx-min-width: 100px;
+  -fx-min-height: 140px;
+  -fx-max-width: 100px;
+  -fx-max-height: 140px;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.35), 12, 0.25, 0, 3);
+}
+
+.playing-card:hover {
+  -fx-effect: dropshadow(gaussian, rgba(251, 191, 36, 0.55), 20, 0.4, 0, 2);
+  -fx-cursor: hand;
+}
+
+.playing-card-held {
+  -fx-border-color: #22c55e;
+  -fx-border-width: 3;
+  -fx-effect: dropshadow(gaussian, rgba(34, 197, 94, 0.6), 22, 0.45, 0, 0);
+}
+
+.playing-card-back {
+  -fx-background-color: linear-gradient(135deg, #1e3a8a 0%, #312e81 50%, #1e1b4b 100%);
+  -fx-background-radius: 14px;
+  -fx-border-color: rgba(255, 255, 255, 0.2);
+  -fx-border-radius: 14px;
+  -fx-min-width: 100px;
+  -fx-min-height: 140px;
+}
+
+.card-rank-tl {
+  -fx-font-size: 18px;
+  -fx-font-weight: 900;
+}
+
+.card-rank-br {
+  -fx-font-size: 18px;
+  -fx-font-weight: 900;
+  -fx-rotate: 180;
+}
+
+.card-suit-center {
+  -fx-font-size: 42px;
+}
+
+.card-red {
+  -fx-text-fill: #dc2626;
+}
+
+.card-black {
+  -fx-text-fill: #0f172a;
+}
+
+.hold-tag {
+  -fx-background-color: #22c55e;
+  -fx-text-fill: #052e16;
+  -fx-font-size: 10px;
+  -fx-font-weight: 900;
+  -fx-background-radius: 6px;
+  -fx-padding: 3px 8px;
+}
+
+.btn-primary {
+  -fx-background-color: linear-gradient(to bottom, #3b82f6, #2563eb);
+  -fx-text-fill: white;
+  -fx-font-weight: 800;
+  -fx-font-size: 13px;
+  -fx-background-radius: 12px;
+  -fx-padding: 10px 22px;
+  -fx-cursor: hand;
+}
+
+.btn-primary:hover {
+  -fx-background-color: linear-gradient(to bottom, #60a5fa, #3b82f6);
+}
+
+.btn-secondary {
+  -fx-background-color: rgba(255, 255, 255, 0.1);
+  -fx-text-fill: #e2e8f0;
+  -fx-font-weight: 700;
+  -fx-background-radius: 12px;
+  -fx-padding: 10px 18px;
+  -fx-border-color: rgba(255, 255, 255, 0.15);
+  -fx-border-radius: 12px;
+}
+
+.btn-secondary:hover {
+  -fx-background-color: rgba(255, 255, 255, 0.16);
+}
+
+.btn-gold {
+  -fx-background-color: linear-gradient(to bottom, #fbbf24, #d97706);
+  -fx-text-fill: #422006;
+  -fx-font-weight: 800;
+  -fx-background-radius: 12px;
+  -fx-padding: 10px 22px;
+}
+
+.sidebar {
+  -fx-background-color: rgba(15, 23, 42, 0.75);
+  -fx-background-radius: 16px;
+  -fx-border-color: rgba(148, 163, 184, 0.2);
+  -fx-border-radius: 16px;
+  -fx-padding: 16px;
+}
+
+.paytable-row {
+  -fx-text-fill: rgba(226, 232, 240, 0.85);
+  -fx-font-size: 11px;
+}
+
+.paytable-hand {
+  -fx-text-fill: #fbbf24;
+  -fx-font-weight: 700;
+}
+
+.log-area {
+  -fx-control-inner-background: rgba(0, 0, 0, 0.25);
+  -fx-text-fill: #cbd5e1;
+  -fx-font-family: Consolas, monospace;
+  -fx-font-size: 11px;
+  -fx-background-radius: 10px;
+}
+
+.banner-win {
+  -fx-background-color: rgba(34, 197, 94, 0.25);
+  -fx-text-fill: #86efac;
+  -fx-font-weight: 800;
+  -fx-font-size: 15px;
+  -fx-background-radius: 12px;
+  -fx-padding: 12px 20px;
+  -fx-border-color: rgba(34, 197, 94, 0.5);
+  -fx-border-radius: 12px;
+}
+
+.banner-lose {
+  -fx-background-color: rgba(239, 68, 68, 0.2);
+  -fx-text-fill: #fca5a5;
+  -fx-font-weight: 800;
+  -fx-font-size: 15px;
+  -fx-background-radius: 12px;
+  -fx-padding: 12px 20px;
+}
+
+.banner-neutral {
+  -fx-background-color: rgba(148, 163, 184, 0.15);
+  -fx-text-fill: #e2e8f0;
+  -fx-font-weight: 700;
+  -fx-background-radius: 12px;
+  -fx-padding: 12px 20px;
+}
